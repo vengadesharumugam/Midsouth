@@ -18,7 +18,7 @@ class MidsouthSpider(scrapy.Spider):
 
     
     custom_settings = {
-        'FEED_URI' : 'tmp/midsouth.csv'
+        'FEED_URI' : 'tmp/midsouth.json'
     }
 
     def parse(self, response):
